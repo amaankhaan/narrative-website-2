@@ -144,8 +144,10 @@ h4, .h4 {
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem;
+    font-family: 'Bodoni Moda', serif; 
+    color: white;
+    
   }
 }
 
@@ -154,7 +156,9 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.7rem;
+  font-family: 'Bodoni Moda', serif;
+  color: white;
 }
 
 p {
@@ -11862,4 +11866,52 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+
+.title-h4{
+  font-size: 1.9rem;
+}
+
+
+
+
+
+.welcometo{
+  position: fixed;
+  margin-top: -700px;
+  margin-left: 225px;
+  text-align: center;
+  resize: both;
+  z-index: 9;
+  
+  ;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
