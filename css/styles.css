@@ -11590,6 +11590,7 @@ body {
   font-family: 'Montserrat', sans-serif; 
   line-height: 2.5rem;
   color:#ffffff;
+  text-align: center;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
@@ -11612,7 +11613,7 @@ body {
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
-    max-width: 30rem;
+    max-width: 70rem;
     font-size: 1.25rem;
   }
 }
