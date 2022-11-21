@@ -8015,7 +8015,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: black;
 }
 
 .bg-dark {
@@ -8025,7 +8025,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: (var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-white {
@@ -11704,6 +11704,7 @@ body {
 * {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
+  font-weight: 300px;
 }
 
 .html {
