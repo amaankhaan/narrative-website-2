@@ -11842,7 +11842,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .container-5:hover .overlay {
