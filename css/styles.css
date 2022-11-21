@@ -11631,7 +11631,10 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid white;
+   border-left-width: 5px;
+    height: 500px;
+    
   }
 }
 .projects-section .project-text {
@@ -11840,6 +11843,7 @@ body {
   right: 0;
   height: 100%;
   width: 100%;
+  border-radius: 25px;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.7);
