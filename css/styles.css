@@ -4166,7 +4166,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
-  
+  margin-right: ;
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -11644,6 +11644,26 @@ body {
     
   }
 }
+
+@media (min-width: 992px) {
+  .projects-section .featured-text-2 {
+    padding: 0 0 0 2rem;
+    border-right: 0.5rem solid white;
+   border-right-width: 5px;
+    height: 300px;
+    width: 700px;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
@@ -11829,10 +11849,18 @@ body {
 
 
 
-.container-5 {
+.container-5{
   position: relative;
   width: 50%;
   margin: 10px;
+}
+
+
+.container-6{
+  position: relative;
+  width: 50%;
+  padding-left: 40px;
+  gap: 60px;
 }
 
 .image {
@@ -11856,7 +11884,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.container-5:hover .overlay {
+.container-5 .container-6:hover .overlay {
   opacity: 1;
 }
 
@@ -11919,3 +11947,7 @@ body {
     width: 100%;
   }
 }
+
+
+
+
