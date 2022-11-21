@@ -11884,9 +11884,14 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.container-5 .container-6:hover .overlay {
+.container-5:hover .overlay {
   opacity: 1;
 }
+
+.container-6:hover .overlay {
+  opacity: 1;
+}
+
 
 .text {
   color: white;
