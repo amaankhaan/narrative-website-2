@@ -145,6 +145,7 @@ h4, .h4 {
 @media (min-width: 1200px) {
   h4, .h4 {
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif; 
   }
 }
 
@@ -11582,10 +11583,8 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif; 
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
   color:#ffffff;
 }
 .masthead h2, .masthead .h2 {
