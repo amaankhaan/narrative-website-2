@@ -141,6 +141,9 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+  font-family: 'Bodoni Moda', serif; 
+  font-size: 2rem;
+  color: #fff;
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -648,6 +651,15 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+
+.container-yt{
+  
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: 50px;
+}
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -11748,6 +11760,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-weight: 300px;
+  color: #b3b3b3;
+  font-size: medium;
 }
 
 .html {
@@ -11809,6 +11823,7 @@ body {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
   padding: 3rem !important;
+  border-top: 0.5rem;
 
 
 
@@ -11905,6 +11920,18 @@ body {
   text-align: center;
 }
 
+.text-4 {
+  color: white;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: auto;
+}
 
 .title-h4{
   font-size: 1.9rem;
@@ -12006,12 +12033,12 @@ video {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+     display: block;
 }
 
 .overlay {
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
+ height: auto;
+ width: auto;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -12021,13 +12048,17 @@ video {
           justify-content: center;
 }
 .overlay h2 {
-    background: #000 none repeat scroll 0 0;
+
     color: tan;
+    font-size: 4px;
     font-weight: 600;
     margin: 2rem 3rem 0;
     mix-blend-mode: overlay;
     padding: 5px 15px;
     text-align: center;
+   display:contents;
+    
+   
 }
 header {
     background:tan;
@@ -12044,3 +12075,4 @@ nav a {
     padding: 0 12px;
     text-decoration: none;
 }
+
