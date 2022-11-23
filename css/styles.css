@@ -503,8 +503,18 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  
 }
-
+.lead-1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: -50px;
+}
+.lead-1-2{
+  font-size: 120px;
+  font-family: 'Bodoni Moda', serif;
+  color:white;
+}
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -752,8 +762,16 @@ margin-right: auto;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+  margin-top: 100px;
 }
-
+.row-x > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
 .col {
   flex: 1 0 0%;
 }
@@ -12061,6 +12079,10 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
+
+
+
 .backgbround{
   background-color: #000;
 }
@@ -12215,6 +12237,7 @@ header .container {
 *, *:before, *:after{
   margin: 0;
   padding: 0;
+  
   -webkit-box-sizing: border-box;
   -moz-box-sizing:border-box;
   box-sizing: border-box;
@@ -12344,6 +12367,7 @@ header .container {
   width: auto;
   height: auto;
   color: #0d6efd;
+  margin-top: 200px;
 }
 
 
@@ -12377,4 +12401,27 @@ header .container {
 
 .fadeIn-right{
   left: 80%;
+}
+
+
+
+/* Carousel
+------------------------- */
+
+
+
+/* Carousel End
+------------------------- */
+
+
+.column-yt {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row-yt:after {
+  content: "";
+  display: table;
+  clear: both;
 }
