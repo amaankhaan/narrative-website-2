@@ -2663,6 +2663,16 @@ textarea.form-control-lg {
   
 
 }
+ 
+.solar-text{
+  text-align: center;
+  margin-top: -180px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 20px;
+
+}
+
+
 
 
 .form-range {
