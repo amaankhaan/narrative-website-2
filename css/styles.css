@@ -663,7 +663,9 @@ progress {
   }
 }
 
-
+.earth-text{
+  color: rgb(255, 255, 255);
+}
 
 
 * {
@@ -677,16 +679,21 @@ progress {
 
 .column-1 {
   float: left;
-  padding: 10px;
-  height: 300px; 
+  padding: 70px;
+  height: 500px; 
+  color: rgb(255, 255, 255);
+
 }
 
 .left {
-  width: 25%;
+  width: 75%;
 }
 
 .right {
-  width: 75%;
+  text-align: justify;
+  width: 25%;
+  border-left: white;
+  border-left: 2px solid white;
 }
 
 
@@ -705,6 +712,9 @@ progress {
 }
 
 
+.column-heading{
+ letter-spacing: 10px;
+}
 
 
 .footsteps-bg{
@@ -739,10 +749,11 @@ margin-right: auto;
   
 .explore-3{
   text-align: center;
-  letter-spacing: 20px;
-  margin-top: -10px;
+  font-size: 10rem;
+  
   color: white;
- margin-bottom: 30px;
+ margin-bottom: 40px;
+ font-family: 'Bodoni Moda', serif;
 
   text-shadow:10px 3px 70px white;
 }
@@ -2834,10 +2845,15 @@ textarea.form-control-lg {
   text-align: center;
   margin-top: -180px;
   font-family: 'Montserrat', sans-serif; 
-  font-size: 20px;
+  font-size: 10px;
 
 }
 
+@media (min-width: 1200px) {
+  .solar-text{
+    font-size:20px;
+  }
+}
 
 
 
@@ -12266,22 +12282,22 @@ body {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+
 .column {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
