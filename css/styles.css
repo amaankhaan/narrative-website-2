@@ -2845,14 +2845,6 @@ textarea.form-control-lg {
 
 }
  
-
-
-.background-planet{
-  background-image: url("../assets/img/planet/foreground/image.png");
-  width: auto;
-  height: auto;
-}
-
 .solar-text{
   text-align: center;
   margin-top: -180px;
