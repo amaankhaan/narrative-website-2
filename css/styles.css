@@ -667,6 +667,10 @@ progress {
   color: rgb(255, 255, 255);
 }
 
+.earth-text-1{
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+}
 
 * {
   box-sizing: border-box;
@@ -882,7 +886,7 @@ margin-right: auto;
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
+  
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -11807,12 +11811,12 @@ body {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 2rem 3rem;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.7rem;
+    font-size: 0.89rem;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: orange;
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -11830,7 +11834,7 @@ body {
     
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: orange;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
