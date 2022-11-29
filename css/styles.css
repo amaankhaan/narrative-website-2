@@ -2836,7 +2836,7 @@ textarea.form-control-lg {
 }
 
 .background-x{
-  background-image: url(/Users/bakes/Desktop/websites-2/narrative-website-2/assets/img/bg-wisx.png);
+  background-image: url("../assets/img/bg-wisx.png");
   
 
 }
