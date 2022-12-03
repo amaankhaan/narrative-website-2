@@ -961,6 +961,19 @@ margin-right: auto;
   margin-top: var(--bs-gutter-y);
   margin-top: 100px;
 }
+
+.row-mars > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+ 
+}
+
+
+
 .row-x > * {
   flex-shrink: 0;
   width: 100%;
@@ -11880,6 +11893,30 @@ body {
 }
 
 
+
+.masthead-4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/mars-img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+
+}
+
+
+.mars-page-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color: white;
+  letter-spacing: 9px;
+  
+}
 .masthead-3 {
   position: relative;
   width: 100%;
@@ -12970,4 +13007,33 @@ align-items: center;
 :root {
   --animate-duration: 800ms;
   --animate-delay: 0.9s;
+}
+
+
+
+/* Text Banner*/
+
+.banner-text-heading {
+  color:#ffffff;
+  text-transform: uppercase;
+}
+
+.banner-heading-background {
+  background-color: black;
+}
+
+.banner-divider {
+  color:#ffffff;
+}
+
+.banner-paragraph {
+  color:#ffffff;
+}
+
+/* End of Text Banner*/
+
+.banner-mars{
+  color: white;
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
 }
