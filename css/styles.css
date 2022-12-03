@@ -13036,4 +13036,158 @@ align-items: center;
   color: white;
   text-align: center;
   font-family: 'Bodoni Moda', serif;
+  font-size: 50px;
+  
+}
+
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: white;
+ 
+}
+
+/* Carousel End
+------------------------- */
+/* Quote background */
+.bg-gradient-primary-to-secondary {
+  background: black;
+}
+/* End of quote background */
+
+
+
+/* Featured Posts
+------------------------- */
+
+.featured-background {
+  background-color: #42295b;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Featured Posts End
+------------------------- */
+
+
+.qoute-text{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.page-one-qoute{
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
+  color: white;
+  font-size: 70px;
+  font-weight: 4px;
+  text-shadow:0px 3px 70px white;
+}
+
+.page-one-qoute-two{
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  font-weight: 1px;
+
+}
+
+
+
+
+
+
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  padding: 90px 90px
+  ;
+}
+
+.col {
+  padding-left:0px;
+  padding-right: 0px;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.bg-left {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(/Users/bakes/Desktop/websites-2/narrative-website-2/assets/img/temp-aust.png);
+  height: 850px;
+}
+
+.bg-right {
+  background-color: #000;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.aus-text{
+  margin-top: -100px;
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 130px;
+  letter-spacing: -7px;
 }
