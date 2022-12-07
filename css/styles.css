@@ -1472,7 +1472,7 @@ margin-right: auto;
   .col-md-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
-    margin-top: 200px;
+    
   }
 
   .col-md-6 {
@@ -12387,11 +12387,16 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
+  font-weight: 150px;
   line-height: 1;
   letter-spacing: -.05rem;
 }
 
+.featurette-heading-p-one{
+  font-size: 40px;
+  letter-spacing: 10px;
+  
+}
 
 
 
@@ -13275,14 +13280,14 @@ align-items: center;
 }
 
 .voyage-text{
-  font-family: 'Bodoni Moda', serif; 
-}
-.second-column {
-
-  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
-
+.moon-a-text{
+  font-style: italic;
+  font-size: 9px;
+}
 
 .maps-container{
   width: 100%;
@@ -13355,8 +13360,59 @@ align-items: center;
   margin-bottom: 300px;
 }
 
+.mb-100{
+  margin-bottom: 100px;
+}
+
 .border-b{
   
 border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
 
+}
+
+.ml-100{
+  margin-left: 100px;
+}
+
+.featurette-heading-yt-video{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: orange;
+  
+}
+
+.spacex-ref{
+  font-weight: 12px;
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
+.background-rockts{
+  background-image: url("../assets/img/rocket-bg-3.png");
+  width: auto;
+
+
+
+
+background-repeat: no-repeat;
+
+
+background-attachment: fixed;
+
+
+background-size: cover;
+
+
+background-color: #464646;
+}
+
+.mt-200-{
+  
+  margin-top: -120px;
+}
+
+
+.space-x-bg-1{
+  background-image: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 100%);
 }
