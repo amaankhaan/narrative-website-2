@@ -11968,8 +11968,9 @@ body {
   text-align: center;
 }
 .masthead h2, .masthead .h2 {
-  max-width: 30rem;
-  font-size: 2rem;
+  max-width: 60rem;
+  font-size: 3rem;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11989,7 +11990,7 @@ body {
   }
   .masthead h2, .masthead .h2 {
     max-width: 70rem;
-    font-size: 60PX;
+    font-size: 3;
     text-shadow:0px 0px 10px white;
   }
 }
@@ -13414,7 +13415,6 @@ background-color: #464646;
 
 
 .space-x-bg-1{
-  background-image: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 100%);
+ 
+  background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 89%, rgba(255,255,255,0) 98%, rgba(255,255,255,0) 100%);
 }
-
-
