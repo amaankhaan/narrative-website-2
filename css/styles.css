@@ -13589,15 +13589,7 @@ background-color: #464646;
   background-image: url("../assets/img/rocket-bg-3.png");
 }
 
-.slider .arrows {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  font-size: 60px;
-  transition: 0.4s linear;
-}
+
 
 .slider .arrows:hover {
   color: #000;
@@ -13639,22 +13631,26 @@ background-color: #464646;
   text-align: center;
   position: absolute;
   bottom: 15px;
+  
 }
 
-.slider .dots label {
+.slider .dots label .button-grow{
   display: inline-block;
-  border-radius: 25px;
-  margin: 0 6px;
+  border-radius: 20px;
+  margin: 0 10px;
   width: 150px;
   height: 50px;
-  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: white;
+  border-style:solid;
+ 
+  border-width: 1px;
 }
 
-.slider input:nth-child(1):checked ~ .dots label:nth-child(1),
-.slider input:nth-child(2):checked ~ .dots label:nth-child(2),
-.slider input:nth-child(3):checked ~ .dots label:nth-child(3) {
-  background-color: #000;
-  border: 2px solid #fff;
+
+  
 } 
 
 .ml-50{
@@ -13663,4 +13659,21 @@ background-color: #464646;
 
 .pd-right{
   padding-right: 50px ;
+}
+
+.bttn-text{
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 10px;
+  
+}
+
+
+
+.button-grow:hover {
+  transform: scale(1.2);
+  -webkit-box-shadow: 0px 0px 32px -2px rgba(255,255,255,0.78);
+  -moz-box-shadow: 0px 0px 32px -2px rgba(255,255,255,0.78);
+  box-shadow: 0px 0px 32px -2px rgba(255,255,255,0.78);
+  
 }
