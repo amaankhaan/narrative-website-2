@@ -13577,7 +13577,7 @@ background-color: #464646;
 }
 
 .slide-1 {
-  background-image: url("../assets/img/planet-background.png");
+  background-image: url("../assets/img/slide-1-img.png");
   padding-left: 30px;
 }
 
@@ -13637,7 +13637,7 @@ background-color: #464646;
 .slider .dots label .button-grow{
   display: inline-block;
   border-radius: 20px;
-  margin: 0 10px;
+  margin: 0 20px;
   width: 150px;
   height: 50px;
   cursor: pointer;
@@ -13651,7 +13651,7 @@ background-color: #464646;
 
 
   
-} 
+
 
 .ml-50{
   margin-left: 50px;
