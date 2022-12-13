@@ -170,4 +170,7 @@ document.documentElement.style.setProperty('--animate-duration', '.5s');
   
 
 
+$('input').on('change', function() {
+  $('body').toggleClass('blue');
+});
 
