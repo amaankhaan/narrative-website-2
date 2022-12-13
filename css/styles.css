@@ -13826,3 +13826,8 @@ background-color: #464646;
   color: white;
   
 }
+
+.letter-space-10{
+  letter-spacing: 10px;
+  font-size: 50px;
+}
