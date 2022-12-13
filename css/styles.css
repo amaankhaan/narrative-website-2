@@ -13752,3 +13752,18 @@ background-color: #464646;
   --animate-duration: 800ms;
   --animate-delay: 0.3s;
 }
+
+
+
+.text-planet-overlay{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif; 
+  color:#bebebf;
+  font-size: 35px;
+  font-variant:inherit;
+  letter-spacing: 10px;
+  text-shadow:10px 3px 70px white;
+}
