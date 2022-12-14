@@ -756,16 +756,24 @@ progress {
 color: white;
 text-align: center;
 
-margin-right: auto;
+
  
 }
+
+
+
+
+
+
 
 .explore{
   text-align: center;
   letter-spacing: 20px;
-  
+  cursor: pointer;
 
   text-shadow:10px 3px 70px white;
+  
+ 
 }
 
 
@@ -13369,7 +13377,26 @@ align-items: center;
 .voyage{
   letter-spacing: 20px;
   font-size: 70px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite linear;
+  animation-duration: 9s;
 }
+
+@keyframes shine {
+  100% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+
 .voyage-2{
   letter-spacing: 5px;
   font-size: 20px;
@@ -13799,11 +13826,15 @@ background-color: #464646;
 
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+  
+  
 }
 
 /* This only changes this particular animation duration */
 .animate__animated.animate__zoomInUp {
   --animate-duration: 0.8s;
+ 
+  
 }
 
 /* This changes all the animations globally */
@@ -13900,3 +13931,4 @@ background-color: #464646;
   50%      { clip: rect(218px, 220px, 220px, 0px); }
   75%      { clip: rect(0px, 220px, 220px, 218px); }
 }
+
