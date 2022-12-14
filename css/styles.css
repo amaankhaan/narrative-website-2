@@ -13954,3 +13954,6 @@ background-color: #464646;
   75%      { clip: rect(0px, 220px, 220px, 218px); }
 }
 
+.modal-bg-img{
+  background-image: url("../assets/img/img-modal-bg.png");
+}
