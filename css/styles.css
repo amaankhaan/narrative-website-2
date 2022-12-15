@@ -13330,10 +13330,36 @@ align-items: center;
 
 
 
+.glow-outline{
+  border: whitesmoke;
+  border-width: 0px;
+  width: 100%;
+  height: auto ;
+  border-style: solid;
+  padding: 3rem;
+  
+  padding-bottom: 6rem;
+  border-radius: 3rem;
+
+  box-shadow: 0px 0px 23px 26px rgba(255, 255, 255, 0.3);
 
 
+}
 
+/* .glow-outline-2{
+  -webkit-box-shadow: inset 0px 0px 47px 3px rgba(255,255,255,0.56);
+-moz-box-shadow: inset 0px 0px 47px 3px rgba(255,255,255,0.56);
+box-shadow: inset 0px 0px 47px 3px rgba(255,255,255,0.56);
+border: whitesmoke;
+border-width: 0px;
+width: 100%;
+height: auto ;
+border-style: solid;
 
+padding: 3rem;]
+padding-bottom: 6rem;
+border-radius: 3rem;
+} */
 
 
 
