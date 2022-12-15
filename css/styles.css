@@ -12622,6 +12622,21 @@ header .container {
 }
 
 
+@media (pointer: coarse) and (hover: none) {
+  .solar-poster {
+    background: url('../assets/img/solar-img-poster-6.png') ;
+    position: relative;
+    
+    height: 100vh;
+    overflow: hidden;
+    
+  }
+
+  header video {
+    display: none;
+  }
+}
+
 
 /* (A) WRAPPER */
 .fullwrap {
