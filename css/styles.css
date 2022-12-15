@@ -12606,6 +12606,20 @@ header .container {
 
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('../assets/img/poster-img-6.png') ;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+  }
+
+  header video {
+    display: none;
+  }
+}
 
 
 
