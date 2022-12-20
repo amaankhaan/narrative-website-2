@@ -14004,3 +14004,11 @@ background-color: #464646;
 .modal-bg-img{
   background-image: url("../assets/img/modal-bg-img-3.png");
 }
+
+
+.figcap{
+  font-family: 'Montserrat', sans-serif; 
+  font-variant: small-caps;
+  color: grey;
+  font-size: 10px;
+}
