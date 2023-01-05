@@ -13835,11 +13835,32 @@ background-color: #464646;
   transition: all 0.3s ease-in-out;
   background-color: transparent;
   border: white;
+
   border-style:solid;
  
   border-width: 1px;
 }
 
+@media (max-width: 590px) {
+  .slider .dots label .button-grow {
+    display: inline-block;
+  border-radius: 20px;
+  margin: 0 20px;
+  width: 100px;
+  height: 25px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: white;
+  padding-bottom: 1.4rem;
+
+  border-style:solid;
+ 
+  border-width: 1px;
+    
+  }
+}
 
 .button-grow-2{
   transition: all 0.3s ease-in-out;
